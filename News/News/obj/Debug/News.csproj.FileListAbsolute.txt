@@ -1,0 +1,7 @@
+C:\Users\ash\Desktop\Core 302\News\News\News\obj\Debug\News.csprojResolveAssemblyReference.cache
+C:\Users\ash\Desktop\Core 302\New folder (2)\News\News\obj\Debug\News.csprojResolveAssemblyReference.cache
+C:\Users\ash\Desktop\Core 302\New folder (2)\News\News\bin\News.dll.config
+C:\Users\ash\Desktop\Core 302\New folder (2)\News\News\bin\News.dll
+C:\Users\ash\Desktop\Core 302\New folder (2)\News\News\bin\News.pdb
+C:\Users\ash\Desktop\Core 302\New folder (2)\News\News\obj\Debug\News.dll
+C:\Users\ash\Desktop\Core 302\New folder (2)\News\News\obj\Debug\News.pdb

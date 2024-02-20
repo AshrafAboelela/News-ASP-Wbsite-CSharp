@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminmaster.master.cs" Inherits="News.Admin.adminmaster" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin-News Site</title>
+    <link href="../CSS_styles/admin_master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- Top Menu Start -->
+<div id="templatemo_header_wrapper">
+  <div id="templatemo_header">   
+   	<img src="../Images/news-logo.png" width="100px" height="90px">       
+		<div id="templatemo_menu">
+            <ul>
+                  <li><div class="headerbtn"><a href="../News_Home.aspx">الصفحة الرئيسية</a></div></li>
+                  <li><div class="headerbtn"><a href="../Admin/AdminLogin.aspx">دخول مدير</a></div></li>
+                  <li><div class="headerbtn"><a href="../Admin/UserLogin.aspx">دخول مستخدم</a></div></li>
+            </ul>    	
+		</div>    
+    </div>
+	</div> 
+	<!-- End of Top Menu-->
+<div class="cl"></div>
+<div id="templatemo_content_wrapper">
+	<div id="templatemo_content">	
+ <!-- Content Area -->   
+    	<div id="column_w530">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">       
+        </asp:ContentPlaceHolder>
+        </div>
+<!-- End of Content Area -->
+    	<div class="cleaner"></div>
+    </div>
+</div>
+<!-- Footer -->
+<div id="templatemo_footer_wrapper">
+<div class="cl"></div>
+	<div id="templatemo_footer">
+		 <div class="col">
+        Copyright © 2020 News Project Website | by <a href="http://www.google.com" target="_parent"> Ashraf Aboelela</a>
+        </div>
+    </div>
+</div>
+<!-- End of Footer -->
+</body>
+</html>
